@@ -1,4 +1,3 @@
-```markdown
 # Simple Calculator
 
 A minimal, accessible calculator built with HTML, CSS, and JavaScript.
@@ -22,4 +21,3 @@ How to use:
 Notes:
 - The calculator sanitizes input before evaluation but is intended for local/static usage.
 - For more advanced parsing or security-critical use, replace the simple evaluator with a full expression parser.
-```
