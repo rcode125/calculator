@@ -1,23 +1,33 @@
 # Simple Calculator
 
-A minimal, accessible calculator built with HTML, CSS, and JavaScript.
+A minimalist and accessible calculator built using HTML, CSS, and JavaScript.
 
-Features:
-- Basic arithmetic: addition, subtraction, multiplication, division
-- Percent support (e.g. "50%" -> 0.5)
-- Clear (C) and Backspace (⌫)
-- Keyboard support (digits, + - * /, Enter for equals, Backspace, Escape for clear)
-- Responsive and lightweight
+## Features
 
-Files:
-- index.html — markup and UI
-- styles.css — styling
-- script.js — calculator logic and keyboard handling
+- **Basic arithmetic:** Addition, subtraction, multiplication, and division
+- **Percent support:** Type values like `50%` (converted to `0.5`)
+- **Clear & Backspace:** Easily clear all input (`C`) or remove the last character (`⌫`)
+- **Keyboard support:** Use digits, `+`, `-`, `*`, `/`, Enter or `=`, Backspace, and Escape for full keyboard control
+- **Responsive & lightweight:** Works on any device and loads instantly
 
-How to use:
-1. Open `index.html` in your browser.
-2. Click buttons or use your keyboard to type expressions, then press `=` or Enter to evaluate.
+## Files
 
-Notes:
-- The calculator sanitizes input before evaluation but is intended for local/static usage.
-- For more advanced parsing or security-critical use, replace the simple evaluator with a full expression parser.
+- [`index.html`](index.html) — Markup and UI
+- [`styles.css`](styles.css) — Styling
+- [`script.js`](script.js) — Calculator logic and keyboard handling
+
+## Getting Started
+
+1. **Clone or download** this repository.
+2. **Open** `index.html` in your web browser.
+
+## Usage
+
+- Click the calculator buttons or type on your keyboard to enter expressions.
+- Press `=` or Enter to evaluate.
+- Use `C` to clear everything or `⌫` (Backspace) to delete the last character.
+
+## Notes
+
+- Input is sanitized before evaluation, but this calculator is intended for local/static use.
+- For more advanced expression parsing or in security-critical applications, replace the included evaluator with a dedicated expression parser.
